@@ -1,0 +1,22 @@
+body {
+  background: rgb(255, 214, 80);
+  background: radial-gradient(
+    circle,
+    rgba(255, 214, 80, 1) 0%,
+    rgba(129, 71, 28, 1) 33%,
+    rgba(35, 42, 85, 1) 64%
+  );
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-image {
+  max-width: 60rem;
+}
